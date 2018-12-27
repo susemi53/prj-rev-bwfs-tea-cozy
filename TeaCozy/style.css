@@ -1,0 +1,181 @@
+/* Universal */
+body {
+  margin: 0;
+  background-color: black;
+}
+
+h2, h4, h3, h5, span, p {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+h4 {
+  font-size: 20px;
+}
+/* header */
+header {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  font-size: 22px;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+.logo img {
+  height: 50px;
+  opacity: 0.9;
+}
+
+nav a{
+  color: seashell;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* first tier */
+.main-stage {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg);
+  height: 700px;
+  width: 1200px;
+  position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-stage h2, .main-stage h4 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 60px;
+}
+
+/*
+.main-stage h4 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 10px;
+}
+*/
+
+
+/* second tier */
+
+.second-tier {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.teaName {
+  width: 300px;
+  font-size: 20px
+}
+
+.second-tier img {
+  height: 200px;
+  width: 300px;
+}
+
+.rowOne {
+  width: 1200px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.rowTwo {
+  width: 1200px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.types {
+  padding: 0 20px 10px 10px;
+}
+
+
+/* Third Tier */
+.third-tier {
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.third-tier h2 {
+  padding-top: 100px;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 20px;
+}
+
+.locations h3 {
+  font-size: 30px;
+}
+
+.locations span {
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.info {
+  margin-top: 0;
+
+  padding-bottom: 50px;
+  height: 200px;
+}
+
+/* footer */
+
+.copyright {
+  text-align: left;
+  position: absolute;
+  bottom: -1500px;
+  padding-left: 20px;
+
+}
